@@ -1,13 +1,16 @@
 FROM node:alpine
 
+ARG NODE_ENV
+
 WORKDIR /usr/app
 
-COPY package*.json .
+COPY package*.json ./
 
-RUN ["npm", "install"]
+ENV NODE_ENV "$NODE_ENV"
+
+RUN if [ "$NODE_ENV" = "development" ]; \
+	then npm install;  \
+	else npm install --only=production; \
+	fi
 
 COPY . .
-
-EXPOSE 3000
-
-CMD ["npm", "start"]
