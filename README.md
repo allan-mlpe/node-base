@@ -18,8 +18,10 @@
 
 ## References
 
-- https://medium.com/vteam/configure-docker-project-for-different-environments-using-docker-compose-3-
+[1] https://medium.com/vteam/configure-docker-project-for-different-environments-using-docker-compose-3-
 
-- https://medium.com/nttlabs/cgroup-v2-596d035be4d7
+[2] https://medium.com/nttlabs/cgroup-v2-596d035be4d7
 
-- https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
+[3] https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
+
+[4] https://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html

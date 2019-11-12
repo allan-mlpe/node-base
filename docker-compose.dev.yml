@@ -16,5 +16,6 @@ services:
       - "9229:9229"
     volumes:
       - .:/usr/app
+      - /usr/app/node_modules # ref [4]
     restart: always
     
