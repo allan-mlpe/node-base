@@ -14,7 +14,7 @@
 
 - Production mode:
 
-    `docker-compose -f docker-compose.prod.yml` 
+    `docker-compose -f docker-compose.prod.yml up` 
 
 ## References
 
@@ -22,4 +22,4 @@
 
 - https://medium.com/nttlabs/cgroup-v2-596d035be4d7
 
--https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
+- https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
